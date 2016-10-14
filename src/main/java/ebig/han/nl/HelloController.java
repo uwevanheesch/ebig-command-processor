@@ -8,7 +8,7 @@ public class HelloController {
 
     @RequestMapping("/")
     public String index() {
-        return "This message comes from a branch.";
+        return "The origin of this message is a branch.";
     }
 
 }
