@@ -26,6 +26,7 @@ public class HelloControllerTest {
     public void getHello() throws Exception {
         this.mvc.perform(MockMvcRequestBuilders.get("/").accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
-                .andExpect(content().string(equalTo("Greetings from my first continous deployment pipeline")));
+                .andExpect(content().string(equalTo("Greetings from my second continous " +
+                        "deployment pipeline")));
     }
 }
