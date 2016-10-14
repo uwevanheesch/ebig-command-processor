@@ -8,7 +8,7 @@ public class HelloController {
 
     @RequestMapping("/")
     public String index() {
-        return "Greetings from my second continous deployment pipeline";
+        return "This message comes from a branch.";
     }
 
 }
