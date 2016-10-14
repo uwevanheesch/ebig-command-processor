@@ -26,6 +26,6 @@ public class AppTest {
         // Execute
         String result = this.sut.testMe();
         // Verify
-        assertEquals("Test fails", result);
+        assertEquals("Test", result);
     }
 }
