@@ -26,6 +26,6 @@ public class HelloControllerTest {
     public void getHello() throws Exception {
         this.mvc.perform(MockMvcRequestBuilders.get("/").accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
-                .andExpect(content().string(equalTo("This is a message is a branch.")));
+                .andExpect(content().string(equalTo("A message")));
     }
 }
