@@ -8,7 +8,7 @@ public class HelloController {
 
     @RequestMapping("/")
     public String index() {
-        System.out.println("A sligh change");
+        System.out.println("A sligher change");
         return "A message";
     }
 
