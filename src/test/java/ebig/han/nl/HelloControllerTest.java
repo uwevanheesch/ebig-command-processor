@@ -21,4 +21,14 @@ public class HelloControllerTest {
 
     }
 
+    @Test
+    public void testNothing() throws Exception {
+        // variables
+
+        // Mock behavior
+
+        // Execute
+
+        // Verify
+    }
 }
