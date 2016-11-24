@@ -5,9 +5,6 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * Created by uwe on 14/10/16.
- */
 public class AppTest {
 
     private App sut;
